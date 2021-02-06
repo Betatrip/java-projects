@@ -21,24 +21,25 @@ public class Piano {
 	static int note = 60;
 	static int instrument = 1;
 	static int strOctave = 3;
-	static String[] strNotes = {"C3",
-								"C3#",
-								"D3",
-								"D3#",
-								"E3",
-								"F3",
-								"F3#",
-								"G3",
-								"G3#",
-								"A3",
-								"A3#",
-								"B3",
-								"C4",
-								"C4#",
-								"D4",
-								"D4#",
-								"E4"
-								};
+	static String[] strNotes = {
+			"C4",
+			"C4#",
+			"D4",
+			"D4#",
+			"E4",
+			"F4",
+			"F4#",
+			"G4",
+			"G4#",
+			"A4",
+			"A4#",
+			"B4",
+			"C5",
+			"C5#",
+			"D5",
+			"D5#",
+			"E5"
+			};
 	public Piano() {
 		JFrame frame = new JFrame("Piano");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
