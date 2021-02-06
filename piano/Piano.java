@@ -1,5 +1,3 @@
-package piano;
-
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -128,7 +126,7 @@ public class Piano {
 class InstrumentPanel extends JPanel {
 	@Override
 	public void paintComponent(Graphics g) {
-		this.setBorder(BorderFactory.createTitledBorder("Инструмент № " + Piano.instrument));
+		this.setBorder(BorderFactory.createTitledBorder("Г€Г­Г±ГІГ°ГіГ¬ГҐГ­ГІ В№ " + Piano.instrument));
 		super.paintComponent(g);
 	}
 }
